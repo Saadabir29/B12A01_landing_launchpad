@@ -1,0 +1,325 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    body{
+        background-color: #1a1a1a;
+        color: white;
+    }
+.hero{
+        background-image: url("./Assets/Hero-bg.png");
+        background-color: #2c2c2c;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 70vh;
+    }
+    nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100px;
+    padding: 0px 50px;
+    color: white;
+}
+    .logo{
+        font-size: 30px;
+        font-weight: bold;
+        color: #4E47FF;
+    }
+    .signup_button{
+        width: 120px;
+        height: 30px;
+        color: white;
+        border: none;
+        font-weight: bolder;
+        background-color: #4E47FF;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+    .signup_button:hover{
+        background-color: #2acf82;
+    }
+    .hero_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 700px;
+    margin: 60px auto 0;
+    padding: 20px;
+    }
+    .hero_content h1{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+    .stayfoucused_button{
+    width: 150px;
+    height: 35px;
+    color: white;
+    font-weight: bolder;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+    .stayfoucused_button:hover {
+    background-color: #2acf82;
+}
+.seeitinaction{
+    background-color: #f6f7fa;
+    padding: 80px 0;
+}
+    .content{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+    .action{
+    flex: 1;
+    max-width: 500px;
+    color: black;
+}
+    .action h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+    .action p{
+    font-size: 1.5rem;
+    color: #a0a0a0;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+    .launchpreview{
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+    .launchpreview:hover {
+    background-color: #2acf82;
+}
+    .actionimage{
+    flex: 1;
+    max-width: 450px;
+    display: flex;
+    justify-content: flex-end;
+}
+    .actionimage img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    background-color: #f6f7fa;
+    padding: 20px 100px 80px;
+}
+    .heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+}
+    .container{
+    background-color: #eaeafe;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 40px 30px;
+    max-width: 900px;
+    width: 100%;
+}
+    .boxwrap{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+    .box{
+    min-height: 100px;
+}
+    .number{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4E47FF;
+}
+    .label{
+    font-size: 0.9rem;
+    color: #6b6b6b;
+    margin-top: 8px;
+}
+    .review{
+    background-color: #f6f7fa;
+    padding: 10px 40px 80px;
+    text-align: center;
+}
+    .review_contain {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+    .review_heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #1a1a1a;
+}
+    .review_cards_wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+    .review_card {
+    background-color: #ffffff; 
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05); 
+}
+    .stars .star-icon {
+    width: 20px; 
+    height: 20px;
+    margin-right: 2px;
+}
+    .review_card h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+    .review_texts {
+    font-size: 1rem;
+    color: #666666;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+    .reviewers_info {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+    .reviewer_avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+    .reviewer_details {
+    display: flex;
+    flex-direction: column;
+}
+    .reviewer_name {
+    font-weight: bold;
+    color: #1a1a1a;
+}
+    .reviewer_date {
+    font-size: 0.8rem;
+    color: #999999;
+}
+.contact_section {
+    background-color: #f6f7fa;
+    padding: 80px 40px 60px 40px;
+    color: #1a1a1a;
+}
+    .contact_wrapper {
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center
+}
+    .contact_text h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    position: center;
+}
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+}
+.contact_form label {
+    display: block; 
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+    .contact_form input,
+    .contact_form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #333;
+}
+    .contact_form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+    .contact_form button {
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+    .contact_form button:hover {
+    background-color: #2acf82;
+}
+.footer {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    color: #4E47FF;
+}
+    .footer_logo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+    .footer_desc {
+    font-size: 0.9rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+    .footer_links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 0.9rem;
+    padding: 0;
+    color: #1a1a1a;
+}
